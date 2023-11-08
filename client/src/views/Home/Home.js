@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <div className="home-page">
-        <h1>Welcome to Audio Recognition</h1>
+        <h1 className='homepage-title'>Welcome to Audio Recognition</h1>
         <div className="feature-list">
           <div className="feature-card">
             <h2>Speech-to-Text</h2>
