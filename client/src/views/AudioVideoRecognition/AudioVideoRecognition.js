@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../../component/Footer/Footer';
 import Navbar from '../../component/Navbar/Navbar';
 import WebCam from '../../component/WebCam/WebCam';
+import voice  from './Images/voice.png';
 import './AudioVideoRecognition.css';
 
 function AudioVideoRecognition() {
@@ -17,7 +18,7 @@ function AudioVideoRecognition() {
         <div className='right-content'>
           <h1 className='title'>Speech to Text</h1>
           <div className='image-container'>
-            <img src='/path-to-your-image' alt='Your Image' />
+            <img src={voice} alt='voice' className='img-voice'/>
           </div>
 
           <p className='description'>Text</p>

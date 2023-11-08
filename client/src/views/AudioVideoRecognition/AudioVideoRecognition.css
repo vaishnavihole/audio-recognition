@@ -49,4 +49,10 @@ img {
   color: #333;
 }
 
-/* You can add more CSS rules and styles as needed */
+.img-voice{
+ /* height: 70px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+ height: 70px;
+  box-shadow: 0 px 8px 9px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
