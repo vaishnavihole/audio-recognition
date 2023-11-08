@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-content">
-          <a className="navbar-brand" href="/">Audio Recognitation</a>
+          <a className="navbar-brand" href="/">Audio Recognitation🎙️</a>
           <ul className="nav-links ">
             <li><a href="/signup">Signup</a></li>
             <li><a href="/login">Login</a></li>
