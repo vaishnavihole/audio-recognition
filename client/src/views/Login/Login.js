@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css'; 
+import { Link } from 'react-router-dom';
 import Footer from '../../component/Footer/Footer';
 import Navbar from '../../component/Navbar/Navbar';
 
@@ -51,9 +52,14 @@ const LoginForm = () => {
             required
           />
         </div>
-        <button type="submit">Login</button>
+        <button className='login-button' type="submit">Login</button>
       </form>
     </div>
+    <div>
+        <Link className='navigate-link' to="/audioVideoRecognition">
+        Start Chat</Link>
+ </div>
+
     <Footer />
     </>
   );

@@ -36,7 +36,7 @@
     font-size: 16px;
   }
   
-  button {
+  .login-button {
     display: block;
     width: 100%;
     padding: 12px;
@@ -48,7 +48,13 @@
     font-size: 16px;
   }
   
-  button:hover {
+  .login-button:hover {
     background-color: red;
+  }
+  
+  .navigate-link{
+    text-decoration: none;
+    margin-left: 600px;
+
   }
   

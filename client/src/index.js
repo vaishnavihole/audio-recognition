@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './index.css';
 import Home from './views/Home/Home';
-import VoiceInput from './views/VoiceInput/VoiceInput';
+import AudioVideoRecognition from './views/AudioVideoRecognition/AudioVideoRecognition';
 import Signup from './views/Signup/Signup';
 import Login from './views/Login/Login';
 
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
     element: <Home/>
   },
   {
-    path: '/voiceInput',
-    element: <VoiceInput/>
+    path: '/audioVideoRecognition',
+    element: <AudioVideoRecognition/>
   },
   {
     path: '/signup',

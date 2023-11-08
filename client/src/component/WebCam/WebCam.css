@@ -1,0 +1,10 @@
+/* WebcamComponent.css */
+
+.webcam {
+    max-width: 500px; /* Set your desired width */
+    max-height: 500px; /* Set your desired height */
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc; /* Optional: Add a border to the webcam component */
+  }
+  
